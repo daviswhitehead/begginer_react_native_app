@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTModuleMethod.m \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTModuleMethod.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTBridgeMethod.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTNullability.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Base/RCTParserUtils.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/React/Profiler/RCTProfile.h

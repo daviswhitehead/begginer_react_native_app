@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/Libraries/Text/RCTText.m \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/dwhitehead/Documents/github/beginner_react_native_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h
