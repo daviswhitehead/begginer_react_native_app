@@ -18,7 +18,7 @@ class AppContainer extends Component {
   render() {
     return <View>
       <Text style={{marginTop: 20}}>
-        I am boris. Recipe Count: {this.props.recipeCount}
+        HELLO JOSHUA. Recipe Count: {this.props.recipeCount}
       </Text>
       <TouchableHighlight onPress={() => {this.addRecipe() }}>
         <Text>Add Recipe</Text>
