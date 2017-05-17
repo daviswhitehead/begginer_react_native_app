@@ -1,1 +1,6 @@
-// to be filled in later
+import createReducer from '../lib/createReducer'
+import * as types from '../actions/types'
+
+export const searchedRecipes = createReducer({}, {
+
+});

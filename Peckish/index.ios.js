@@ -7,7 +7,24 @@ import {
   compose
 } from 'redux'
 import thunkMiddleware from 'redux-thunk'
-import createLogger from 'redux-logger'
+import { createLogger } from 'redux-logger'
+import reducer from './app/reducers'
+
+// logger only functions in development mode
+const loggerMiddleware = createLogger({ predicate: (getState, action) => __DEV__ });
+
+function configureStore(initialState) {
+  const enhancer = compose(
+    applyMiddleware(
+      thunkMiddleware,
+      loggerMiddleware,
+    ),
+  );
+  return createStore(reducer, initialState, enhancer);
+}
+
+const store = configureStore({});
+
 import {
   AppRegistry,
   StyleSheet,
@@ -17,41 +34,18 @@ import {
 
 export default class Peckish extends Component {
   render() {
-    console.log('hello world')
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+      <View>
+        <Text>I am chill yobagoya</Text>
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
+const App = () => (
+  <Provider store={store}>
+    <Peckish />
+  </Provider>
+)
 
-AppRegistry.registerComponent('Peckish', () => Peckish);
+AppRegistry.registerComponent('Peckish', () => App);
