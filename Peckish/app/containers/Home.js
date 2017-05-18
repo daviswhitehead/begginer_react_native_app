@@ -16,6 +16,10 @@ class Home extends Component {
     this.props.fetchRecipes('bacon,cucumber,banana')
   }
 
+  recipes() {
+    return Object.keys(this.props.searchedRecipes).map( key => this.props.searchedRecipes[key] )
+  }
+
   render() {
     return <View style={{marginTop: 20}}>
       <View>
@@ -24,7 +28,12 @@ class Home extends Component {
         </TouchableHighlight>
       </View>
       <ScrollView>
-
+        {this.recipes().map((recipe) => {
+          return <View key={recipe.id}>
+            <Image source={{ uri: recipe.image }} style={{}} />
+            <Text>{recipe.title}</Text>
+          </View>
+        })}
       </ScrollView>
     </View>
   }
