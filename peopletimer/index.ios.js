@@ -1,4 +1,4 @@
-import {AppRegistry} from 'react-native';
-import Root from './src/containers/Root';
+import { AppRegistry } from 'react-native';
+import Root from './app/index';
 
 AppRegistry.registerComponent('peopletimer', () => Root);
